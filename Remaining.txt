@@ -1,0 +1,26 @@
+Definitions
+3) Find the usage of ‘use strict’
+Usage of  'use strict'' 
+
+Strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+It disables features that are confusing or poorly thought out.
+Strict mode makes it easier to write secure JavaScript.
+
+4) Noscript tag
+
+The <noscript> tag defines an alternate content for users that have disabled scripts in their browser 
+or have a browser that doesn't support script and can be used in both <head> and <body>.
+The <noscript> element can be used in both <head> and <body>.
+
+Example:
+</body>
+<script>
+.....
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+
+6) Typeof()
+
+var s=3/0; = number
+      var f=Nan  = undefined
