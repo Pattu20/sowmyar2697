@@ -1,0 +1,59 @@
+Definitions
+3) Find the usage of ‘use strict’
+Usage of  'use strict'' 
+
+Strict mode eliminates some JavaScript silent errors by changing them to throw errors.
+It disables features that are confusing or poorly thought out.
+Strict mode makes it easier to write secure JavaScript.
+
+4) Noscript tag
+
+The <noscript> tag defines an alternate content for users that have disabled scripts in their browser 
+or have a browser that doesn't support script and can be used in both <head> and <body>.
+The <noscript> element can be used in both <head> and <body>.
+
+Example:
+</body>
+<script>
+.....
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+
+5)inherting one person obj from other obj - prototype or __proto__ 
+
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+Person.prototype.nationality = "English";
+
+var myFather = new Person("John", "Doe", 50, "blue");
+console.log(myFather.nationality);
+</script>
+
+</body>
+</html>
+
+6) Typeof()
+
+var s=3/0; = number
+      var f=NaN  = number
+7)
+var a='abc'; var b='bcd'
+
+It compares based on alphabet position.
+
+8)function expression
+
+function functionName() {
+}
+
